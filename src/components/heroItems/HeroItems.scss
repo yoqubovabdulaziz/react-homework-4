@@ -1,0 +1,17 @@
+.hero__row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.hero__item {
+  width: 100px;
+  height: 64px;
+  text-align: center;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 12px;
+  }
+}

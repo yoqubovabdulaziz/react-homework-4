@@ -1,0 +1,86 @@
+#vision {
+  padding-top: 44px;
+  .vision__header {
+    background-color: black;
+    &__content {
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h1 {
+        color: white;
+        font-weight: 400;
+      }
+      a {
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+      }
+      a:hover {
+        color: rgb(0, 149, 255);
+      }
+      .book__btn {
+        border: 1px solid white;
+        padding: 4px 10px;
+        border-radius: 16px;
+      }
+      .book__btn:hover {
+        background-color: white;
+        color: black;
+      }
+      .buy__btn {
+        background-color: blue;
+        padding: 6px 16px;
+        border-radius: 24px;
+        font-weight: 600;
+      }
+      .buy__btn:hover {
+        color: white;
+      }
+      .vision__header__end {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+    }
+  }
+  .vision__hero {
+    height: 120vh;
+    background: url(../../assets/images/vision-pro.jpg) center no-repeat;
+  }
+  .vision__hero__banner {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 560px;
+    color: white;
+    h1 {
+      font-size: 70px;
+      display: flex;
+      align-items: center;
+    }
+    p {
+      font-size: 30px;
+      color: red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .remove__vision__banner {
+    display: none !important;
+  }
+  .vision__video {
+    background-color: black;
+    width: 100%;
+    object-fit: contain;
+    video {
+      position: relative;
+      top: -300px;
+      width: 100%;
+    }
+  }
+  .show__video {
+    display: none;
+  }
+}
