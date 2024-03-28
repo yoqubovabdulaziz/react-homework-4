@@ -5,7 +5,7 @@ import "./Iphone.scss"
 import HeroItems from '../../components/heroItems/HeroItems'
 import { IPHONE_ITEMS } from '../../static'
 
-import video from "../../assets/video/mac-video.mp4"
+import video from "../../assets/video/iphone-video.mp4"
 
 
 function Iphone() {
